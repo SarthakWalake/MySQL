@@ -14,6 +14,6 @@ VALUES(p_username,p_password,p_email,p_address);
 END //
 DELIMITER ;
 
-CALL UserRegistration("omkar","omkar71","omkar45@gmail.com","ArjunWada");
+CALL UserRegistration("SARTHAK_WALAKE","sarthak7424","sarthakwalake7424@gmail.com","KOLAHPUR");
 
 SELECT * FROM users;
