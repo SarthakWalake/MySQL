@@ -21,6 +21,7 @@ WHERE candidatetestresults.candidateid=2
 AND year(teststarttime)=2015;
 
 -- write a join on test table .
+
 -- JOIN PERFORMED ON subject , employees , subjectmatterexpert , tests Table FROM assessmentdb DATABASE.
 SELECT s.id AS subjectid,s.title AS subjecttitle,sme.id AS subjectmatterexpert,sme.certificationdate,e.id AS employeeid,CONCAT(e.firstname," ",e.lastname) AS name ,t.duration,
 t.creationdate,t.modificationdate,t.scheduleddate,t.passinglevel
