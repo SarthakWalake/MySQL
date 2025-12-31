@@ -25,5 +25,5 @@ END //
 
 DELIMITER ;
 
-CALL GetEmployeeDetails(2,@name,@department,@salary);
+CALL GetEmployeeDetails(103,@name,@department,@salary);
 SELECT @name , @department , @salary;
